@@ -1,0 +1,29 @@
+{
+  "name": "afinn111-lexicon",
+  "version": "1.0.0",
+  "description": "AFINN 111 list of English words rated for valence",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/afinn111-lexicon",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix",
+    "test":  "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "standard": "^11.0.1"
+  },
+  "files": [
+    "index.js",
+    "yarn.lock"
+  ],
+  "keywords": [
+    "afinn111"
+  ],
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
